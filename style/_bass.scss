@@ -1,0 +1,24 @@
+.container {
+  max-width: 1274px;
+  margin: auto;
+  width: 95%;
+}
+.bnt {
+  padding: 17px 35px;
+  border-radius: 60px;
+  background-color: #988ebf;
+  color: $bg-1;
+  border: 2.5px solid #8176af;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  text-align: left;
+  transition: 2s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: inherit;
+    color: $background-color;
+    border: 2.3px solid white;
+  }
+}
